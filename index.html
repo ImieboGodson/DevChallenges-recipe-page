@@ -22,7 +22,9 @@
 
     <link 
       rel="stylesheet" 
-      href="resources/css/style.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+      crossorigin="anonymous" 
     />
 
     <link 
@@ -32,10 +34,14 @@
 
     <link 
       rel="stylesheet" 
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
-      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
-      crossorigin="anonymous" 
+      href="resources/css/mediaquieries.css"
     />
+
+    <link 
+      rel="stylesheet" 
+      href="resources/css/style.css"
+    />
+
 
     <title>Recipe Page</title>
 
@@ -63,7 +69,7 @@
         <img src="/resources/images/photo1.png" alt="">
       </div>
       <div class="description grid">
-        <div class="ingredient-instruction">
+        <div class="left-col">
           <h2 class="heading my-2 py-1">Ingredients</h2>
           <h3 class="food-title my-4 py-2">Graham Cracker Crust</h3>
           <div class="check-list-item my-2">
@@ -178,26 +184,42 @@
             <p class="list-description">Serve cheesecake with desired toppings. Cover 
               and store leftover cheesecake in the refrigerator for up to 5 days.</p>
           </div>
+          <p class="reference-text  py-3">Source: https://sallysbakingaddiction.com/classic-cheesecake/ </p>
         </div>
-        <div class="time">
+        <div class="right-col">
           <div class="timing-div">
-            <div class="timing-list-item my-4">
-              <i class="fas fa-utensils-alt fa-3x"></i>
-              <div class="texts-labels">
-                <p>YIELDS</p>
-                <P>12 servings</P>
-              </div>
-            </div>
-            <div class="timing-list-item my-4">
-              <i class="fal fa-clock fa-3x"></i>
+            <div class="timing-list-item my-6">
+              <i class="fas fa-utensils-alt"></i>
               <div class="texts-labels">
                 <p class="top-text">YIELDS</p>
-                <P class="bottom-text">12 servings</P>
+                <P class="bottom-text diff-color">12 servings</P>
+              </div>
+            </div>
+            <div class="timing-list-item my-6">
+              <i class="fal fa-clock"></i>
+              <div class="texts-labels">
+                <p class="top-text">PREP TIME</p>
+                <P class="bottom-text">45 minutes</P>
+              </div>
+            </div>
+            <div class="timing-list-item my-6">
+              <i class="fal fa-clock"></i>
+              <div class="texts-labels">
+                <p class="top-text">COOK TIME</p>
+                <P class="bottom-text">1 hour</P>
+              </div>
+            </div>
+            <div class="timing-list-item my-6">
+              <i class="fal fa-clock"></i>
+              <div class="texts-labels">
+                <p class="top-text">TOTAL TIME</p>
+                <P class="bottom-text">7,750 hours</P>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <p class="footer-text py-4">Imiebo Godson @ DevChallenges.io</p>
     </div>
 
   </body>
