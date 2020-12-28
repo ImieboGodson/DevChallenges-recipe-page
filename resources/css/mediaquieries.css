@@ -53,8 +53,12 @@
         line-height: 32px;
     }
 
+    .far, .fas {
+        font-size: 18px;
+    }
+
     .top-text {
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         font-size: 8px;
         line-height: 10px;
     }
