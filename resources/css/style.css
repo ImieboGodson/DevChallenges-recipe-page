@@ -151,14 +151,19 @@ input[type='checkbox'] {
     justify-content: center;
 }
 
+.far, .fas {
+    font-size: 30px;
+    align-self: center;
+}
 
-/* .timing-div .timing-list-item i {
-    width: 20px;
-    height: 20px;
-    font-size: 60px;
-    font-weight: bold;
+.far {
+    color: #4F4F4F;
+}
+
+
+.fas {
     color: #F2994A;
-} */
+}
 
 .texts-labels {
     margin-left: 10px;
