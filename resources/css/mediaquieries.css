@@ -1,13 +1,66 @@
 @media (max-width: 700px) {
+    .header-text {
+        margin-top: 30px;
+        font-size: 38px;
+        line-height: 64px;
+    }
+
+    .header-subtext p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
     .grid {
         grid-template-columns: 1fr;
     }
-
-    .right-col {
-        order: 1;
-    }
+    
 
     .left-col {
         order: 2;
+    }
+
+    .reference-text {
+        font-size: 12px;
+    }
+
+    .timing-div {
+        padding: 0;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .mobile-break-point {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .yields {
+        margin: 5px 0;
+        justify-content: left;
+    }
+
+    .check-list-item .list-description,
+    .instruction-list-item .list-description {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .top-text {
+        margin-bottom: 5px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    
+    .bottom-text {
+        font-size: 10px;
+        line-height: 12px;
     }
 }

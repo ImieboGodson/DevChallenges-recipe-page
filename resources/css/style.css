@@ -74,7 +74,7 @@ input[type='checkbox'] {
     margin-right: 20px;
 }
 
-.check-list-item p {
+.check-list-item .list-description {
     width: 70%;
     font-style: normal;
     font-weight: normal;
@@ -83,7 +83,7 @@ input[type='checkbox'] {
     color: #333333;
 }
 
-.check-list-item p span,
+.check-list-item .list-description span,
 .instruction-list-item .list-description span{
     font-weight: bold;
 }
@@ -116,12 +116,12 @@ input[type='checkbox'] {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 150%;
     color: #333333;
 }
 
 .reference-text {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: italic;
     font-weight: normal;
     font-size: 16px;
@@ -140,14 +140,22 @@ input[type='checkbox'] {
     border-radius: 12px;
 }
 
+.mobile-break-point {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .timing-list-item {
     display: flex;
     justify-content: center;
 }
 
-.timing-div .timing-list-item i {
-    background-color: #F2994A;
+
+.timing-div .timing-list-item .fas {
+    font-size: 60px;
+    font-weight: bold;
+    color: #F2994A;
 }
 
 .texts-labels {
