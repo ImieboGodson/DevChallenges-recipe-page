@@ -44,9 +44,9 @@
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png) -->
 
 
- I really explored with this one, tried different ways to achieve the required layout, learnt a lot in the process and I also got stuck trying to experiment with how I would arrive at the outcome. I used CSS Grid in structuring my hero section(hero-image and hero-texts) making it as responsive as possible without so much altering with media queries.
+ This was more straight forward than I thought prior to starting. It was fun, I used CSS Grid in structuring the main part of the page(Ingredients and instruction, and the duration card on the right.) making it as responsive as possible without so much altering with media queries.
 
- As in the last challenger, I decided to account for other screen sizes apart from the required mobile phone and laptop views.
+ As in the last challenge, I decided to account for other screen sizes apart from the required mobile phone and laptop views.
 
 You can checkout the [demo](https://el-recipe-page.netlify.app/).
 
@@ -61,7 +61,7 @@ You can checkout the [demo](https://el-recipe-page.netlify.app/).
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This simple page was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [Interior Consultant](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This simple page was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [Recipe Page](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements
